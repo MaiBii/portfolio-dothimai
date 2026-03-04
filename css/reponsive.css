@@ -50,9 +50,7 @@
   }
 }
 
-/* *=====================
-     Small Tablet - landscape mode
-  =========================*/
+/* ---------Small Tablet - landscape mode--------*/
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
@@ -61,10 +59,6 @@
   /** ABOUT ME **/
   .aboutMe__section {
     margin: 80px auto;
-
-    & img {
-      display: none;
-    }
   }
 
   /** SKILLS **/
@@ -82,9 +76,7 @@
   }
 }
 
-/* *=====================
-     Phone
-  =========================*/
+/* ------------------- Phone------------*/
 @media (max-width: 640px) {
   :root {
     font-size: 14px;

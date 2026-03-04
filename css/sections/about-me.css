@@ -6,12 +6,32 @@
   max-width: 1660px;
   position: relative;
 }
+.aboutMe__img {
+  position: absolute;
+  z-index: 10;
+}
+
+.aboutMe__img:nth-of-type(2) {
+  width: 350px;
+  height: 250px;
+  top: 0%;
+  left: 10%;
+}
+
+.aboutMe__img:nth-of-type(1) {
+  opacity: 0.7;
+  width: 250px;
+  height: 150px;
+  bottom: 0%;
+  right: 10%;
+}
 
 .aboutMe__container {
   width: 70%;
   padding: 3rem;
   background-color: hsla(var(--p-500-code), 0.1);
   border-radius: 3rem;
+  z-index: 0;
 }
 
 .aboutMe__content_container {
@@ -26,6 +46,7 @@
 
   & h2 {
     color: var(--p-800);
+    font-weight: 550;
   }
 
   & p {
@@ -75,7 +96,7 @@
   background-color: transparent;
 
   &:hover {
-  background-color: var(--p-0);
+    background-color: var(--p-0);
     box-shadow:
       0 4px 8px hsla(var(--p-900-code), 0.2),
       0 2px 4px hsla(var(--p-900-code), 0.3);
