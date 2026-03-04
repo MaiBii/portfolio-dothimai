@@ -9,6 +9,7 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   font-size: var(--p-font-size);
   line-height: var(--p-line-height);
@@ -19,21 +20,19 @@
   scroll-behavior: smooth;
 }
 
+
 a {
   text-decoration: none;
 }
 
+
+
 body {
-  /* background pattern */
-  background-color: var(--foreground-color);
-  background-size: 7px 7px;
-  background-image: repeating-linear-gradient(
-    45deg,
-    hsla(var(--p-500-code), 0.1) 0,
-    hsla(var(--p-700-code), 0.1) 0.7px,
-    var(--foreground-color) 0,
-    var(--foreground-color) 50%
-  );
+  border: 10px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(rgb(255, 255, 255), rgb(249, 237, 237)) padding-box,
+    linear-gradient(45deg, #fce4ec, #e9a1ba, #f48fb1) border-box;
 }
 
 .container {
