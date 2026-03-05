@@ -39,15 +39,10 @@
   padding: 2rem 2rem;
   box-shadow: 0px 2px 4px hsla(233, 45%, 20%, 0.1);
 
-
-/* ------viet anh oi ảnh này không hiejnnnnnn--------------------------------- */
   &:nth-child(1) {
     border: none;
-    background:url("./assets/cat2.jpg") center / cover no-repeat;
-
+    background: url(/assets/cat1.jpg) center / cover no-repeat;
   }
-
-
 
   &:nth-child(2) {
     grid-column: span 2;
@@ -95,16 +90,16 @@
     }
 
     & .icon-badges:nth-child(even) {
-      background: var(--main-gradient-color);
-      color: white;
+      background: var(--p-100);
+      color:var(--p-700);
     }
 
     & .icon-badges:nth-child(odd) {
-      background: white;
+      background:var(--p-700);
       border: 1px solid var(--p-100);
 
       & span {
-        background: var(--main-gradient-color);
+        background: white;
         color: transparent;
         background-clip: text;
       }
@@ -118,7 +113,6 @@
     gap: 3rem;
     justify-content: space-between;
 
-
     & .softSkills__container {
       position: relative;
       flex: 1;
@@ -128,6 +122,7 @@
       align-content: center;
       gap: 8px;
       margin-top: 8px;
+      margin-bottom: 50px;
     }
 
     & .softSkills_badge {
@@ -158,7 +153,6 @@
       &:nth-child(2) {
         bottom: 10%;
         left: 20%;
-        
       }
 
       &:nth-child(3) {
@@ -169,7 +163,6 @@
       &:nth-child(4) {
         bottom: 10%;
         right: 5%;
-
       }
     }
 
@@ -197,7 +190,7 @@
 
         &:nth-child(3) {
           top: 1px;
-          right: 400px;
+          right: 410px;
           transform: rotate(10deg);
         }
 
@@ -210,9 +203,9 @@
       }
     }
   }
-/* --------------phần ảnh này không hiệnnnnnnnnnn-------------------------------------------------- */
+
   &:nth-child(4) {
-    background:url("./assets/cat2.jpg") center / cover no-repeat;
+    background: url(/assets/cat1.jpg) center / cover no-repeat;
     border: none;
   }
 }

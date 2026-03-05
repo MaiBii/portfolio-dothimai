@@ -5,6 +5,7 @@
 @import url(./sections/projects.css);
 @import url(./sections/about-me.css);
 @import url(./sections/skills.css);
+@import url(./sections/animation.css);
 
 * {
   box-sizing: border-box;
@@ -20,11 +21,9 @@
   scroll-behavior: smooth;
 }
 
-
 a {
   text-decoration: none;
 }
-
 
 body {
   border: 10px solid transparent;
@@ -40,11 +39,11 @@ body {
   padding: 0 2rem;
 }
 
-.section__header{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 16px;
+.section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .section__title {

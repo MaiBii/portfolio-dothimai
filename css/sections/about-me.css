@@ -1,5 +1,5 @@
 .aboutMe__section {
-  margin: 140px auto;
+  margin: 90px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@
   height: 250px;
   top: 0%;
   left: 10%;
+  animation: float 4s ease-in-out infinite;
 }
 
 .aboutMe__img:nth-of-type(1) {
@@ -24,6 +25,7 @@
   height: 150px;
   bottom: 0%;
   right: 10%;
+  animation: float 5s 1s ease-in-out infinite;
 }
 
 .aboutMe__container {
@@ -91,8 +93,8 @@
 }
 
 .outlineButton {
-  border: 1px solid var(--p-600);
-  color: var(--p-600);
+  border: 1px solid var(--p-700);
+  color: var(--p-800);
   background-color: transparent;
 
   &:hover {

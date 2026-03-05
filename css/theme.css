@@ -33,29 +33,22 @@
         FONTS 
     =================================*/
 
-  --h1-font-size: 3rem;
+  --h1-font-size: 2.6rem;
+--h1-line-height: 3rem;
 
-  --h1-line-height: 3.25rem;
+--h2-font-size: 2.2rem;
+--h2-line-height: 2.6rem;
 
-  --h2-font-size: 2.5rem;
+--h3-font-size: 1.5rem;
+--h3-line-height: 2rem;
 
-  --h2-line-height: 1rem;
+--h4-font-size: 1.3rem;
+--h4-line-height: 1.8rem;
 
-  --h3-font-size: 1.5rem;
+--p-font-size: 1.15rem;
+--p-line-height: 1rem;
+--p-letter-spacing: 0.03rem;
 
-  --h3-line-height: 1rem;
-
-  --h4-font-size: 1.5rem;
-
-  --h4-line-height: 1.5rem;
-
-  --p-font-size: 1.5rem;
-
-  --p-line-height: 2rem;
-
-  --p-letter-spacing: 0.05rem;
-
-  --caption-font-size: 1rem;
-
-  --caption-line-height: 1.2rem;
+--caption-font-size: 1rem;
+--caption-line-height: 1.3rem;
 }
