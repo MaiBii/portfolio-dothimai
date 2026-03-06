@@ -44,7 +44,8 @@
     background: url(/assets/cat1.jpg) center / cover no-repeat;
   }
 
-  &:nth-child(2) {
+  &:nth-child(2),
+  &:nth-child(3) {
     grid-column: span 2;
     display: flex;
     flex-direction: column;
@@ -55,21 +56,18 @@
       margin-top: 8px;
       display: flex;
       gap: 12px;
-
-      &:nth-child(1) > .icons-list {
-        animation: move-left 30s linear infinite;
+      & .icons-list {
+        display: flex;
+        min-width: 100%;
+        gap: 12px;
+        flex-shrink: 0;
       }
-
-      &:nth-child(2) > .icons-list {
-        animation: move-right 60s linear infinite;
+      & .first {
+        animation: move-left 150s linear infinite;
       }
-    }
-
-    & .icons-list {
-      display: flex;
-      min-width: 100%;
-      gap: 12px;
-      flex-shrink: 0;
+      & .second {
+        animation: move-right 150s linear infinite;
+      }
     }
 
     & .icon-badges {
@@ -91,11 +89,11 @@
 
     & .icon-badges:nth-child(even) {
       background: var(--p-100);
-      color:var(--p-700);
+      color: var(--p-700);
     }
 
     & .icon-badges:nth-child(odd) {
-      background:var(--p-700);
+      background: var(--p-700);
       border: 1px solid var(--p-100);
 
       & span {
